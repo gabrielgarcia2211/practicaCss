@@ -1,0 +1,102 @@
+h1{
+    color:red;
+}
+
+article li{
+    color: #00f;
+}
+
+article li strong {
+    color: #000;
+}
+
+aside{
+    float: left;
+    width: 30%;
+    clear: both;
+}
+
+section{
+    float: left;
+    width: 70%;
+}
+
+#formacion{
+    float: left;
+    width: 50%;
+}
+
+#experiencia{
+    float: left;
+    width: 50%;
+}
+
+article li .actual{
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+nav ul{
+    padding: 0px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: #2175bc;
+    color: #fff;
+
+}
+
+footer{
+    clear: both;
+}
+
+@media (min-width: 601px) and (max-width: 1000px){
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    aside{
+        float: left;
+        width: 40%;
+        clear: both;
+    }
+    section{
+        width: 60%;
+    }
+    #formacion{
+        width: 100%;
+    }
+    #experiencia{
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    body{
+         background-color: rgb(220, 250, 244);
+    }
+    aside{
+        padding: 10px;
+        width: 100%;
+    }
+    #formacion{
+        padding: 10px;
+        width: 100%;
+    }
+    #experiencia{
+        padding: 10px;
+        width: 100%;
+    }
+    footer{
+        padding: 10px;
+    }
+
+   
+}
